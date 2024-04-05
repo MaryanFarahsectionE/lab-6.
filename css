@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+body {
+  font-family: 'Amiri', serif;
+  background: #f9f9f9;
+}
+
+#conference-intro {
+  background-color: #21618C;
+  color: #fff;
+  padding: 60px 0;
+}
+
+#conference-intro h1,
+#conference-intro p {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#speakers {
+  background-color: #EBF5FB;
+  padding: 40px 0;
+}
+
+#speakers h2 {
+  color: #21618C; 
+  font-family: 'Amiri', serif;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+  }
+  
+
+.card-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  color: #0E6251;
+  font-family: 'Amiri', serif;
+}
+
+.badge-success {
+  background-color: #28B463; 
+}
+
+.btn-primary {
+  background-color: #1F618D;
+  border: none;
+}
+
+#schedule {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+#schedule h2 {
+  color: #21618C;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.schedule-day {
+  margin-bottom: 20px;
+}
+
+.time-slot {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.time-slot:last-child {
+  border-bottom: none;
+}
+
+.time-slot h5 {
+  margin: 0;
+  color: #0E6251; 
+}
+
+.time-slot p {
+  margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+  .card-body {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+}
