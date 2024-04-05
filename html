@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>islamic conference 2024: unity in diversity</title>
+  <!-- using bootstrap for responsive design and components that are easy to use -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- linking to a custom css file for unique styling beyond bootstrap -->
+  <link href="assignment4.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- chose a navbar for easy navigation; it's responsive and collapses on smaller screens -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">islamic conference 2024</a>
+  <!-- toggle button for smaller screens to make the navigation accessible at all screen sizes -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- navigation links for different sections of the site for quick access -->
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#conference-intro">home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#speakers">speakers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#schedule">schedule</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#registration">register</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- using a jumbotron for the intro to grab attention and highlight the conference's main message -->
+<section id="conference-intro" class="jumbotron text-center bg-dark text-white">
+  <div class="container">
+    <h1 class="display-4">welcome to the islamic conference 2024</h1>
+    <p class="lead">exploring unity in diversity through faith, knowledge, and community.</p>
+  </div>
+</section>
+
+<section id="speakers" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Meet Our Esteemed Speakers</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="mufti.jpg" class="card-img-top img-fluid" alt="Mufti Meek">
+            <div class="card-body">
+              <h5 class="card-title">Mufti Meek</h5>
+              <p class="card-text">A leading figure in Islamic jurisprudence, known for his insightful interpretations of Quranic texts.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="maxresdefault.jpg" class="card-img-top img-fluid" alt="Abu Taymiyyah">
+            <div class="card-body">
+              <h5 class="card-title">Abu Taymiyyah</h5>
+              <p class="card-text">Abu Taymiyyah is a scholar and author who bridges traditional Islamic teachings with contemporary thought.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="moh.jpg" class="card-img-top img-fluid" alt="Mohamed Hoblos">
+            <div class="card-body">
+              <h5 class="card-title">Mohamed Hoblos</h5>
+              <p class="card-text">Renowned for his spiritual teachings, Mohamed Hoblos focuses on personal growth through faith.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="ahki.jpg" class="card-img-top img-fluid" alt="Akhi Ayman">
+            <div class="card-body">
+              <h5 class="card-title">Akhi Ayman</h5>
+              <p class="card-text">Akhi Ayman is an influential leader advocating for social justice and community service within the framework of Islamic principles.</p>
+            </d
+      </div>
+    </div>
+  </section>
+<section id="schedule" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Conference Schedule</h2>
+  
+      <div class="schedule-day mb-5">
+        <h3 class="mb-4">April 18, 2024: Khalid Bin Walid Masjid </h3>
+  
+        <div class="time-slot mb-3">
+          <h5>09:00 AM - Opening Remarks</h5>
+          <p>Welcome speech and introduction by Mufti Meek.</p>
+        </div>
+  
+        <div class="time-slot mb-3">
+          <h5>10:00 AM - Keynote: Unity in Diversity</h5>
+          <p>Keynote address by Mohamed Hoblos exploring the conference's theme of unity within diversity.</p>
+        </div>
+  
+        <div class="time-slot mb-3">
+          <h5>02:00 PM - Panel Discussion: Bridging Traditions and Modernity</h5>
+          <p>A panel discussion moderated by Akhi Ayman with panelist Abu Taymiyyah, delving into how traditional Islamic teachings intersect with modern life challenges.</p>
+        </div>
+
+        <div class="time-slot">
+          <h5>07:00 PM - Evening Lecture: Spiritual Resilience in the Modern Age</h5>
+          <p>An inspiring session on building spiritual resilience, presented by Akli.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<!-- registration section with clear call-to-action button to encourage sign-ups -->
+<section id="registration" class="py-5 text-center bg-dark text-white">
+    <div class="container">
+      <h2>secure your spot</h2>
+      <p class="lead">don't miss this opportunity to join a gathering of minds and hearts united in faith.</p>
+      <!-- button to draw attention and prompt action -->
+      <a href="#" class="btn btn-primary">register now</a>
+    </div>
+  </section>
+  
+  <!-- including bootstrap and jquery scripts for functionality like the navbar toggler and components -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  </body>
+  </html>
